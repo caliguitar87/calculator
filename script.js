@@ -98,23 +98,16 @@ let dot = document.querySelector('.dot').addEventListener('click', () => {
     return num;}
 });
 let del = document.querySelector('.del').addEventListener('click', () => {
+    
+    if (num.length>0){
+
+    
     let temp =num.slice(0,-1);
-    num = temp;
-    if (!num){
-        num='';
-        result =0;
-        numOne='';
-        numTwo='';
-    }
-        display.textContent=0;
+        num = temp;}
+
+   display.textContent=num;
         return num;
-    
-
-   }
-
-
-    
-);
+});
 let display = document.querySelector('.output');
 let equals = document.querySelector('.equals').addEventListener('click', () => {
 
