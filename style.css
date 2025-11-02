@@ -1,0 +1,58 @@
+
+.btns{
+    display:flex;
+    justify-content:center;
+    
+   
+}
+.values{
+    display:flex;
+    flex-wrap:wrap;
+    width:150px;
+    margin:0;
+    padding:0;
+    border:0;
+    justify-content: space-evenly;
+}
+.operators{
+    display:flex;
+    flex-direction: column;
+    margin:0;
+    padding:0;
+    border:0;
+}
+button{
+    margin:0;
+    width:50px;
+    height:50px;
+    border-style:5px;
+    background-color: lightskyblue;
+    color:white;
+}
+.container{
+    border:5px,solid, skyblue;
+    border-radius: 5px;
+    display:flex;
+    flex-direction:column;
+    
+
+}
+body{
+    
+    display:flex;
+    padding:25%;
+    justify-content:center;
+
+    
+}
+.others{
+    align-self:flex-end;
+    display:flex;
+    justify-content:center;
+    
+}
+.output{
+    text-align: end;
+    font-size: 50px;
+}
+
